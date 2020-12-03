@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-color: #202020;
+    padding: 50px 200px;
+}
+
+.section__form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.section__form__container {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    padding: 20px 40px;
+    transform: skew(-30deg);
+}
+
+.section__form__container__input {
+    transform: skew(30deg);
+    outline: none;
+    width: 100%;
+    padding-right: 215px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.section__form__container__input-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: red;
+    border: none;
+    border: 1px solid white;
+    height: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.section__form__container__input-submit__label {
+    transform: skew(30deg);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errors {
+    margin-top: 30px;
+    color: red;
+}
+
+.data {
+    margin-top: 15px;
+    color: white;
+}
