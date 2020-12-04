@@ -1,0 +1,30 @@
+{
+  "name": "api_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./js/app.js -d ./js/builded/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandr-Novik/api_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandr-Novik/api_task/issues"
+  },
+  "homepage": "https://github.com/Alexandr-Novik/api_task#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
